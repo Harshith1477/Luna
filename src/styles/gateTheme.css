@@ -1,0 +1,55 @@
+/* ══════════════════════════════════════════════════════════════
+   PASSWORD GATE THEME VARIABLES
+   Dusk-lavender + blush room palette, tuned in one place.
+══════════════════════════════════════════════════════════════ */
+:root {
+  /* Wall: vertical dusk-lavender to blush gradient */
+  --gate-wall-top: #EDE4F7;
+  --gate-wall-bottom: #F8E6EF;
+  --gate-wall-pattern: rgba(120, 90, 160, 0.045);
+
+  /* Baseboard: clean white translucent with lavender-tinted rim */
+  --gate-baseboard-bg: rgba(255, 255, 255, 0.72);
+  --gate-baseboard-line: #D9C7E6;
+  --gate-baseboard-shadow: rgba(140, 110, 180, 0.12);
+
+  /* Floor: lighter, cleaner look (soft cream-peach to soft lilac wood, not tan/brown) */
+  --gate-floor-top: #FAF2EE;
+  --gate-floor-bottom: #EDE2EA;
+  --gate-floor-plank: rgba(180, 140, 175, 0.22);
+
+  /* Rug: dusty rose with cream dashed ring */
+  --gate-rug: #E8B4C8;
+  --gate-rug-deep: #D49BAF;
+  --gate-rug-inner: #FFF8FA;
+  --gate-rug-ring: rgba(255, 248, 250, 0.65);
+  --gate-rug-shadow: rgba(170, 110, 140, 0.22);
+
+  /* Window & Golden Sunlight Beam */
+  --gate-window-frame: #F0E0D6;
+  --gate-window-sky-top: #C8E3F8;
+  --gate-window-sky-bot: #FCE8D8;
+  --gate-window-light: #FFE9B8;
+  --gate-window-beam: rgba(255, 233, 184, 0.26);
+
+  /* Typography & Core Accents */
+  --gate-accent-crimson: #D6174A;
+  --gate-text-plum: #2B1A3D;
+  --gate-outline: #1E1B4B;
+
+  /* Password Card */
+  --gate-card-bg: rgba(255, 255, 255, 0.92);
+  --gate-card-radius: 28px;
+  --gate-card-shadow: 0 16px 48px rgba(180, 160, 210, 0.24), 0 4px 12px rgba(43, 26, 61, 0.06);
+  --gate-card-border: rgba(214, 23, 74, 0.12);
+
+  /* Unlock transition blush */
+  --gate-transition-blush: #FCEBE0;
+}
+
+/* WCAG AA compliant placeholder contrast (>4.5:1 on white) */
+#gate-password-input::placeholder {
+  color: #705E78 !important;
+  opacity: 1 !important;
+}
+
